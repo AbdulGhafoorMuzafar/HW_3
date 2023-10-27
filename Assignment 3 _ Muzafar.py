@@ -12,23 +12,23 @@ if (operation ==1) :
     number = float (input("Please Enter Your Number :"))
     print("Sin of your number is : ") 
     print(math.sin(number))
-elif (operation == 2) :
+if (operation == 2) :
     number = float (input("Please Enter Your Number :"))
     print("Cos Of Your Number Is :")
     print(math.cos(number))
-elif(operation == 3) :
+if(operation == 3) :
     number = float (input("Please Enter Your Number :"))
     print("Tan Of Your Number Is :")
     print(math.tan(number))
-elif(operation == 4) :
+if(operation == 4) :
     number = float (input("Please Enter Your Number :"))
     print("Cot Of Your Number Is :")
     print(1/math.tan(number))
-elif(operation == 5) :
+if(operation == 5) :
     number = int (input("Please Enter Your Number :"))
     print("Factorial Of Your Number Is :")
     print(math.factorial(number))
-elif(operation == 6) :
+if(operation == 6) :
     number = int (input("Please Enter Your Number :"))
     print("sqrt Of Your Number Is :")
     print(math.sqrt(number))
