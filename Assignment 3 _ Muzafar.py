@@ -11,19 +11,19 @@ operation = int(input())
 if (operation ==1) :
     number = float (input("Please Enter Your Number :"))
     print("Sin of your number is : ") 
-    print(math.sin(number))
+    print(math.sin(math.radians(number)))
 if (operation == 2) :
     number = float (input("Please Enter Your Number :"))
     print("Cos Of Your Number Is :")
-    print(math.cos(number))
+    print(math.cos(math.radians(number)))
 if(operation == 3) :
     number = float (input("Please Enter Your Number :"))
     print("Tan Of Your Number Is :")
-    print(math.tan(number))
+    print(math.tan(math.radians(number)))
 if(operation == 4) :
     number = float (input("Please Enter Your Number :"))
     print("Cot Of Your Number Is :")
-    print(1/math.tan(number))
+    print(1/math.tan(math.radians(number)))
 if(operation == 5) :
     number = int (input("Please Enter Your Number :"))
     print("Factorial Of Your Number Is :")
